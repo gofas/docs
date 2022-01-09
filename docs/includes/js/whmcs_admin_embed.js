@@ -11,9 +11,8 @@ $(document).ready(function () {
         ifrm.setAttribute("src", "https://gofas.net/whmcs/juno-cartao/");
         ifrm.style.width = "640px";
         ifrm.style.height = "480px";
-         //document.body.appendChild(ifrm);
-         return ifrm;
+        document.body.appendChild(ifrm);
     }
-    // $("gjpifrm").load("https://gofas.net/whmcs/juno-cartao/");
-   setTimeout(function(){ gjpifrm.innerHTML = prepareFrame(); }, 3000);
+     $("gjpifrm").load("https://gofas.net/whmcs/juno-cartao/");
+   // setTimeout(function(){ gjpifrm.innerHTML = iframe; }, 3000);
 })
